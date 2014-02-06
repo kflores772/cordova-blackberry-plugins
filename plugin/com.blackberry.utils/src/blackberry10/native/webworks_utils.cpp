@@ -39,17 +39,4 @@ int Utils::strToInt(const std::string& val) {
     return number;
 }
 
-std::string Utils::toBase64(const unsigned char *input, const size_t size)
-{
-    size_t outputSize = size * 4;
-    char *output = new char[outputSize];
-    outputSize = b64_ntop(input, size, output, outputSize);
-    output[outputSize] = 0;
-
-    std::string outputString(output);
-    delete output;
-
-    return outputString;
-}
-
 } // namespace webworks
