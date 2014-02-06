@@ -24,8 +24,6 @@
     <description>BlackBerry 10 User Identity APIs</description>
     <license>Apache 2.0</license>
 
-    <dependency id="com.blackberry.utils" />
-
     <js-module src="www/client.js">
         <clobbers target="blackberry.user.identity" />
     </js-module>

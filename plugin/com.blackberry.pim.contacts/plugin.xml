@@ -24,7 +24,6 @@
     <description>BlackBerry 10 Contacts APIs</description>
     <license>Apache 2.0</license>
 
-    <dependency id="com.blackberry.utils" />
     <dependency id="com.blackberry.pim.lib" />
 
     <js-module src="www/client.js">

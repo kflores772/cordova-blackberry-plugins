@@ -24,8 +24,6 @@
     <description>BlackBerry 10 File Transfer APIs</description>
     <license>Apache 2.0</license>
 
-    <dependency id="com.blackberry.utils" />
-
     <js-module src="www/client.js">
         <merges target="blackberry.io.filetransfer" />
     </js-module>

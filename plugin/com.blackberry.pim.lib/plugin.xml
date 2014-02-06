@@ -25,6 +25,8 @@
     <description>BlackBerry 10 PIM Library</description>
     <license>Apache 2.0</license>
 
+    <dependency id="com.blackberry.utils" />
+
     <platform name="blackberry10">
         <lib-file src="src/blackberry10/native/device/libpimcontacts.so" arch="device"></lib-file>
         <lib-file src="src/blackberry10/native/simulator/libpimcontacts.so" arch="simulator"></lib-file>
